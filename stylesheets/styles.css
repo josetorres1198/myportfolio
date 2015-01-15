@@ -413,15 +413,26 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 }
 
-
+.project-header body{
+  font-family:'Roboto', sans-serif;
+    letter-spacing: .25em;
+    background-color:#f8f8f8;
+}
 .project-header {
-  background: #eee url(http://wallpoper.com/images/00/24/15/58/white-simple_00241558.jpg) no-repeat center center ; 
+  background: #eee url(url(http://asmithblog.com/wp-content/uploads/2013/10/Clean-Gray-BackGround.jpg) no-repeat center center ; 
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
   text-align: center;
   margin-bottom: 100px;
+}
+
+.project-header a{
+  color:#b8992b;
+}
+.project-header a:hover{
+  color:#fff;
 }
 
 .project-header nav ul li{
@@ -442,32 +453,45 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .project-header nav ul li img {
   width: 65px;
-  margin: 0 3em;
 }
 
 .project-header p.nav-name {
-  font-size: 12px;
+  font-size: 20px;
+}
+
+.section-head h3{
+  color:#808080;
+  font-weight: 100;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Lato';
+  letter-spacing: .25em;
+}
+
+.section-head p{
+  font-family: 'Lato';
+  letter-spacing: .15em;
 }
 
 h6.role-desc {
   text-transform: uppercase;
   font-weight: 800;
-  color:#535353;
+  color:#000000;
   letter-spacing: .15em;
-}
-
-.section-head h3 {
-  color: #535353;
-  letter-spacing: .15em;
-  font-weight: 200;
 }
 
 .project-view {
   font-weight: 600;
   color: #b8992b;
   text-transform: uppercase;
-  letter-spacing: .15em;
+  letter-spacing: .25em;
   margin-top: 30px;
+  -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -mz-transition: all .2s ease-in-out;
+  transition:all .2s ease-in-out;
+
 }
 
 .block-1{ 
@@ -492,21 +516,33 @@ h6.role-desc {
 
 .project-desc {
   padding: 0 100px;
+  color:#808080;
 }
 
 .block-header {
   text-transform: uppercase;
   font-weight: 800;
-  color:#535353;
-  letter-spacing: .15em;
+  color:#000000;
+  letter-spacing: .25em;
   margin-bottom: 2em;
+  text-align: center;
 }
 
 .wireframe {
 text-align:center;
 margin:0 auto;
 }
-#jottly-wireframe {
-  background-color: #64d3ff;
-  
+
+#bottom {
+    height: 150px;
+    text-align: center;
+    background: #000000  no-repeat center center fixed;
+    background-size: cover;
+    -moz-box-shadow: 0 0 10px 2px #808080;
+    -webkit-box-shadow: 0 0 10px 2px #808080;
+    box-shadow: 0 0 10px 2px #808080;
+}
+#bottom  p{
+    color:#fff;
+    margin-top:65px;
 }
