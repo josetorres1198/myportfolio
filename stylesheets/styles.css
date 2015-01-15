@@ -419,7 +419,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     background-color:#f8f8f8;
 }
 .project-header {
-  background: url("url(http://asmithblog.com/wp-content/uploads/2013/10/Clean-Gray-BackGround.jpg") no-repeat center center ; 
+  background: url(http://asmithblog.com/wp-content/uploads/2013/10/Clean-Gray-BackGround.jpg) no-repeat center center ; 
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
