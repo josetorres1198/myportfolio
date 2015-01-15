@@ -30,9 +30,9 @@ html, body {
   font-size:100%;
 }
 body{
-    font-family:'Lato';
+    font-family:'Roboto', sans-serif;
     letter-spacing: .15em;
-    background-color:#808080;
+    background-color:#f8f8f8;
     text-align:center;
 }
 
@@ -455,6 +455,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .project-header nav ul li img {
   width: 65px;
+  margin:0 3em;
 }
 
 .project-header p.nav-name {
