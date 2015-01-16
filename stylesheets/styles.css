@@ -122,6 +122,9 @@ h6 { font-size: 18px;}
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
+.nav-name{
+  color:#b8992b;
+}
 
 ul li p .nav-name a {
         color: #b8992b;
