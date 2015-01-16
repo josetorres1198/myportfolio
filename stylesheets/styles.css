@@ -125,6 +125,9 @@ h6 { font-size: 18px;}
 .nav-name{
   color:#b8992b;
 }
+.nav-name:hover{
+  color:#fff;
+}
 
 ul li p .nav-name a {
         color: #b8992b;
