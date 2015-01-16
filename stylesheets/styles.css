@@ -436,11 +436,12 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 
 .project-header nav ul li{
-  margin: 3% 0 1.7% 0;
+  margin: 7% 3% 5% 3%;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
+  text-align: center;
 }
 
     .project-header nav ul li:hover {
