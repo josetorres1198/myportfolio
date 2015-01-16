@@ -32,7 +32,7 @@ html, body {
 body{
     font-family:'Roboto', sans-serif;
     letter-spacing: .15em;
-    background-color:#f8f8f8;
+    background-color:#808080;
     text-align:center;
 }
 
@@ -72,12 +72,13 @@ h2 { font-size: 30px;
      letter-spacing: .25em;
      
 }
-h3 { color:#808080;
-  font-weight: 100;
-  font-size: 45px;
-  text-align: center;
+h3 { font-size: 35px;
+     color:#b8992b;
+    text-align:center;
+    margin-bottom:50px;
+    margin-top:50px;
+    letter-spacing: .25em;
   font-family: 'Lato';
-  letter-spacing: .25em;
 } 
 h4 { font-size: 40px;
      color:#fff;
@@ -413,11 +414,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 }
 
-.project-header body{
-  font-family:'Roboto', sans-serif;
-    letter-spacing: .25em;
-    background-color:#f8f8f8;
-}
+
 .project-header {
   background: url(http://asmithblog.com/wp-content/uploads/2013/10/Clean-Gray-BackGround.jpg) no-repeat center center ; 
   -webkit-background-size: 100%;
@@ -460,6 +457,9 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .project-header p.nav-name {
   font-size: 20px;
+}
+#pages{
+  background color: #f8f8f8;
 }
 
 .section-head h3{
