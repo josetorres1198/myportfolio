@@ -45,12 +45,10 @@ body{
 
 ul {
   margin-left: 0;
-  color:#b8992b;
 }
 li{ 
   text-decoration: none;
   display: inline-block;
-  color:#b8992b;
 }
 a {
   text-decoration: none; 
@@ -129,7 +127,7 @@ h6 { font-size: 18px;}
   color:#fff;
 }
 
-ul li p .nav-name a {
+ul li p.nav-name a {
         color: #b8992b;
         font-weight: 200;
         padding-top: 15px;
@@ -138,7 +136,9 @@ ul li p .nav-name a {
         text-align:center;
  
 }
-ul li p .nav-name a:hover {
+ul li p
+
+.nav-name a:hover {
       -webkit-transform: scale(1.2);
       -moz-transform: scale(1.2);
       -o-transform: scale(1.2);
@@ -436,12 +436,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   font-size: 15px;
 }
 
-.project-header a{
-  color:#b8992b;
-}
-.project-header a:hover{
-  color:#fff;
-}
+
 
 .project-header nav ul li{
   margin: 7% 3% 5% 3%;
