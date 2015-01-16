@@ -46,7 +46,7 @@ body{
 ul {
   margin-left: 0;
 }
-li {
+li{ 
   text-decoration: none;
   display: inline-block;
 }
@@ -121,7 +121,7 @@ h6 { font-size: 18px;}
   transition: all .2s ease-in-out;
 }
 
-ul li p.nav-name a {
+ul li p .nav-name a {
         color: #b8992b;
         font-weight: 200;
         padding-top: 15px;
@@ -130,7 +130,7 @@ ul li p.nav-name a {
         text-align:center;
  
 }
-ul li p.nav-name a:hover {
+ul li p .nav-name a:hover {
       -webkit-transform: scale(1.2);
       -moz-transform: scale(1.2);
       -o-transform: scale(1.2);
